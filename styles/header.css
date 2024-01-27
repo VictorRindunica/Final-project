@@ -1,0 +1,19 @@
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  height: 113px;
+}
+header .links {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: end;
+  gap: 30px;
+}
+header .links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: barlow;
+  font-weight: 700;
+  color: #83888F;
+}/*# sourceMappingURL=header.css.map */

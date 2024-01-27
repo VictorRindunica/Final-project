@@ -1,0 +1,22 @@
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    height: 113px;
+    .links{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: end; 
+        gap: 30px;    
+        a{
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: barlow;
+            font-weight: 700;
+            color: #83888F;
+
+        }
+    }
+
+}
+

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&display=swap");
+button {
+  width: 217px;
+  height: 56px;
+  background-color: #0E8784;
+  border-radius: 8px;
+  font-family: fraunces;
+  color: #FEFCF7;
+  font-size: 18px;
+  border: none;
+}
+button:hover {
+  background-color: #66D2CF;
+  cursor: pointer;
+}
+
+.mso {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: auto 1280px auto;
+  background-color: #fefcf7;
+}
+
+.container {
+  width: 100%;
+  grid-column-start: 2;
+}/*# sourceMappingURL=common.css.map */

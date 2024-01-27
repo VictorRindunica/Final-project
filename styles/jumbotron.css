@@ -1,0 +1,29 @@
+.jumbotron {
+  height: 600px;
+  background-image: url(../img/image-hero-coffeepress.jpg);
+  border-radius: 16px;
+  color: #FEFCF7;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.jumbotron .product-text {
+  margin-left: 85px;
+  height: 367px;
+  display: grid;
+  align-self: center;
+}
+.jumbotron .product-text h1 {
+  font-family: fraunces;
+  font-size: 72px;
+  margin: 0;
+  line-height: 72px;
+}
+.jumbotron .product-text p {
+  font-family: barlow;
+  margin: 0;
+  line-height: 1.8;
+  opacity: 80%;
+}
+.jumbotron .product-text button {
+  width: 217px;
+}/*# sourceMappingURL=jumbotron.css.map */
